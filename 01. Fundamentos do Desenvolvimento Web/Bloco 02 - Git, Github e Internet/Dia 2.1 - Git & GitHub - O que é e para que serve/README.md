@@ -2,6 +2,6 @@
 
 #### Neste dia aprendi a:
 
-Instalar e configurar o Git no seu computador;
-Salvar seus projetos no repositório Git local;
-Controlar as alterações e versões dos seus arquivos;
+- Instalar e configurar o Git no meu computador;
+- Salvar meus projetos no repositório Git local;
+- Controlar as alterações e versões dos meus arquivos.
