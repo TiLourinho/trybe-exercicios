@@ -10,8 +10,8 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### [Bloco 1: Introdução - Unix & Shell](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2001%20-%20Unix%20%26%20Bash)
 
-- [X] 1.3: _Unix & Shell- Part 1_
-- [X] 1.4: _Unix & Shell- Part 2_
+- [X] 1.3: _Unix & Shell - Parte 1_
+- [X] 1.4: _Unix & Shell - Parte 2_
 
 ##### [Bloco 2: Git & GitHub](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2002%20-%20Git%2C%20Github%20e%20Internet)
 
@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 3.2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3.3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3.4: _HTML Semântico_
-- [ ] 3.5: _Projeto - HTML & CSS_
+- [ ] 3.5: _Projeto: Lessons Learned_
 
 ##### Bloco 4: Introdução à JavaScript e Lógica de Programação
 
