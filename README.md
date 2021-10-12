@@ -27,7 +27,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 3.4: _HTML Semântico_
 - [X] 3.5: _Projeto: Lessons Learned_
 
-##### Bloco 4: Introdução à JavaScript e Lógica de Programação
+##### [Bloco 4: Introdução à JavaScript e Lógica de Programação](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2004%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20JavaScript%20e%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o)
 
 - [X] 4.1: _JavaScript - Primeiros Passos_
 - [ ] 4.2: _JavaScript - Array e loop For_
