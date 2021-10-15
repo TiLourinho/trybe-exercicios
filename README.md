@@ -30,7 +30,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 4: Introdução à JavaScript e Lógica de Programação](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2004%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20JavaScript%20e%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o)
 
 - [X] 4.1: _JavaScript - Primeiros Passos_
-- [ ] 4.2: _JavaScript - Array e loop For_
-- [ ] 4.3: _JavaScript - Lógica de Programação a Algoritmos_
+- [X] 4.2: _JavaScript - Array e loop For_
+- [X] 4.3: _JavaScript - Lógica de Programação a Algoritmos_
 - [ ] 4.4: _JavaScript - Objetos e Funções_
 - [ ] 4.5: _Projeto: Playground Functions_
