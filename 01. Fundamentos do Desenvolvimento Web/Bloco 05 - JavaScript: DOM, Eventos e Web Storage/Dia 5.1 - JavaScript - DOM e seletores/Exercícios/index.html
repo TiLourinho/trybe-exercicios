@@ -51,7 +51,7 @@
         Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
         Crie uma função que mude a cor do quadrado vermelho para branco.
         Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+        Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
       function pTag() {
@@ -79,10 +79,18 @@
       title();
 
       function upperCase() {
-          let pUpper = document.getElementsByTagName('p')[0];
-          pUpper.innerHTML = pUpper.innerHTML.toUpperCase();
+        let pUpper = document.getElementsByTagName('p')[0];
+        pUpper.innerHTML = pUpper.innerHTML.toUpperCase();
       }
       upperCase();
+
+      function pConsole() {
+        const pConsole = document.getElementsByTagName('p');
+        for (let i = 0; i < pConsole.length; i += 1) {
+          console.log(pConsole[i].innerText);
+        }
+      }
+      pConsole();
 
     </script>
   </body>
