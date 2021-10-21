@@ -34,3 +34,10 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 4.3: _JavaScript - Lógica de Programação a Algoritmos_
 - [ ] 4.4: _JavaScript - Objetos e Funções_
 - [ ] 4.5: _Projeto: Playground Functions_
+
+##### [Bloco 5: JavaScript: DOM, Eventos e Web Storage](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2005%20-%20JavaScript:%20DOM%2C%20Eventos%20e%20Web%20Storage)
+
+- [X] 5.1: _JavaScript - DOM e seletores_
+- [X] 5.2: _JavaScript - Trabalhando com elementos_
+- [ ] 5.3: _JavaScript - Eventos_
+- [ ] 5.4: _JavaScript - Web Storage_
