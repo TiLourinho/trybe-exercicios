@@ -57,40 +57,48 @@
   </head>
   <body>
     <script>
+      //1.
       let h1 = document.createElement('h1');
       h1.innerText = 'Exercício 5.2 - JavaScript DOM';
       document.body.appendChild(h1);
 
+      //2.
       let main = document.createElement('main');
       main.className = 'main-content';
       document.body.appendChild(main);
 
+      //3.
       let elementSection = document.createElement('section');
       elementSection.className = 'center-content';
       let way = document.getElementsByClassName('main-content')[0];
       way.appendChild(elementSection);
 
+      //4.
       let pFromSection = document.createElement('p');
       pFromSection.innerText = "Die young is far too boring these days.";
       let parentSection = document.getElementsByClassName('center-content')[0];
       parentSection.appendChild(pFromSection);
       
+      //5.
       let elementSection2 = document.createElement('section');
       elementSection2.className = 'left-content';
       let elementSection2Parent = document.getElementsByClassName('main-content')[0];
       elementSection2Parent.appendChild(elementSection2);
 
+      //6.
       let elementSection3 = document.createElement('section');
       elementSection3.className = 'right-content';
       let elementSection3Parent = document.getElementsByClassName('main-content')[0];
       elementSection3Parent.appendChild(elementSection3);
 
+      //7.
       let image = document.createElement('img');
       image.src = 'https://picsum.photos/200';
       image.className = 'small-image';
       let imageParent = document.getElementsByClassName('left-content')[0];
       imageParent.appendChild(image);
 
+      //8.
       let elementUl = document.createElement('ul');
       elementSection3.appendChild(elementUl);
       const list = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
@@ -101,17 +109,28 @@
         elementUl.appendChild(elementLi);
       }
 
+      //9.
       for (let i = 1; i <= 3; i += 1) {
         let elementH3 = document.createElement('h3');
         elementH3.innerHTML = i;
         main.appendChild(elementH3);
       }
       
-      //1.
+      //2.1.
       let titleH1 = document.getElementsByTagName('h1')[0];
       titleH1.className = 'title';
 
-      //2.
+      //2.2.
+      for (let i = 0; i < 3; i += 1) {
+        let classH3 = document.getElementsByTagName('h3')[i];
+        classH3.className = 'description';
+      }
+
+      //2.3.
+      main.removeChild(elementSection2);
+
+      //2.4.
+      
       
     </script>
   </body>
