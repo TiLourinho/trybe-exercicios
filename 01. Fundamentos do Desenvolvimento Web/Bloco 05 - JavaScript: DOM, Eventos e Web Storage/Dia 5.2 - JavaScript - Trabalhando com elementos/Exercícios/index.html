@@ -106,6 +106,7 @@
       for (let i in list) {
         let elementLi = document.createElement('li');
         elementLi.innerText = list[i];
+        elementLi.className = 'numbers-li';
         elementUl.appendChild(elementLi);
       }
 
@@ -130,7 +131,17 @@
       main.removeChild(elementSection2);
 
       //2.4.
+      let centralizeSection = document.querySelector('.right-content');
+      centralizeSection.style.marginRight = 'auto';
+
+      //2.5.
+      let changeColor = document.getElementsByClassName('center-content')[0];
+      changeColor.parentElement.style.backgroundColor = 'green';
       
+      //2.6.
+      let removeItem = document.getElementsByTagName('ul')[0];
+      removeItem.lastElementChild.remove();
+      removeItem.lastElementChild.remove();
       
     </script>
   </body>
