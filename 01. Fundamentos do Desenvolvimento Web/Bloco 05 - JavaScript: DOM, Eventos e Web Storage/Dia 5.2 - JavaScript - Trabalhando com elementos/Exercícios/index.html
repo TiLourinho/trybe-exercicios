@@ -76,7 +76,20 @@
       parentSection.appendChild(pFromSection);
       
       let elementSection2 = document.createElement('section');
-      
+      elementSection2.className = 'left-content';
+      let elementSection2Parent = document.getElementsByClassName('main-content')[0];
+      elementSection2Parent.appendChild(elementSection2);
+
+      let elementSection3 = document.createElement('section');
+      elementSection3.className = 'right-content';
+      let elementSection3Parent = document.getElementsByClassName('main-content')[0];
+      elementSection3Parent.appendChild(elementSection3);
+
+      let image = document.createElement('img');
+      image.src = 'https://picsum.photos/200';
+      image.className = 'small-image';
+      let imageParent = document.getElementsByClassName('left-content')[0];
+      imageParent.appendChild(image);
     </script>
   </body>
 </html>
