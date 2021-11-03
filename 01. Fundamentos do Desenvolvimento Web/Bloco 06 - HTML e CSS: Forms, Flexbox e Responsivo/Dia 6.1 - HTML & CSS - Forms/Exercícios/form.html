@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header id="container-header">
+    <h1>Currículo</h1>
+    <p>Responda o formulário abaixo:</p>
+  </header>
+  <main>
+    <form action="" method="get">
+      <section class="container-fieldset">
+        <fieldset id="field-1">
+        <legend>Informações</legend>
+          <div class="line">
+            <label for="input-name">Nome </label>
+            <input type="text" name="text" id="input-name" maxlength="40" required>
+          </div>
+          <div class="line">
+            <label for="input-email">E-mail </label>
+            <input type="email" name="email" id="input-email" maxlength="50" required>
+          </div>
+          <div class="line">
+            <label for="input-cpf">CPF </label>
+            <input type="text" name="cpf" id="input-cpf" maxlength="11" required>
+          </div>
+          <div class="line">
+            <label for="input-adress">Endereço </label>
+            <input type="text" name="adress" id="input-adress" maxlength="200" required><br>
+            <br>
+            <label for="input-type"> </label>
+            <input type="radio" name="type" id="input-type" required>Casa 
+            <input type="radio" name="type" id="input-type" required>Apartamento
+          </div>
+          <div class="line">
+            <label for="input-city">Cidade </label>
+            <input type="text" name="city" id="input-city" maxlength="28" required>
+          </div>
+          <div class="line">
+            <label for="input-states">Estado </label>
+              <select name="states" id="input-states" required>
+                <option disabled selected value>Selecione seu estado</option>
+              </select>
+          </div>
+        </fieldset>
+      </section>
+      <section class="container-fieldset">
+        <fieldset id="field-2">
+        <legend>Último emprego</legend>
+          <div class="line">
+            <label for="input-text-area">Resumo do currículo </label>
+            <textarea name="resume" id="input-resume" maxlength="1000" rows="10"required></textarea>
+          </div>
+          <div class="line">
+            <label for="input-job">Cargo </label>
+            <input type="text" name="job" id="input-job" maxlength="40" required>
+          </div>
+          <div class="line">
+            <label for="input-job-description">Descrição do cargo </label>
+            <input type="text" name="job-description" id="input-job-description" maxlength="500" required>
+          </div>
+          <div class="line">
+            <label for="input-date">Data de início </label>
+            <input type="text" name="date" id="input-date" required>
+          </div>
+        </fieldset>
+        <button type="submit" id="submit-button">Enviar</button>
+        <button type="button" id="clear-button">Limpar</button>
+      </section>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
