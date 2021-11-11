@@ -125,3 +125,4 @@ const totalStudents = obj => {
   return total;
 }
 console.log(totalStudents(allLessons));
+
