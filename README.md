@@ -52,4 +52,11 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 6.3: _CSS Flexbox - Parte 1_
 - [X] 6.4: _CSS Flexbox - Parte 2_
 - [X] 6.5: _CSS Responsivo - Mobile First_
-- [ ] 6.6: _Projeto: Trybewarts_
+- [X] 6.6: _Projeto: Trybewarts_
+
+##### [Bloco 7: Introdução à JavaScript ES6 e Testes Unitários](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2007%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20JavaScript%20ES6%20e%20Testes%20Unit%C3%A1rios)
+
+- [X] 7.1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [X] 7.2: _JavaScript ES6 - Objects_
+- [X] 7.3: _Primeiros passos em Jest_
+- [ ] 7.4: _Projeto: JS Unit Tests_
