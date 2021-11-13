@@ -1,3 +1,4 @@
+// 1.
 const sum = require('./sum.js')
 
 describe('Testing sum function', () => {
