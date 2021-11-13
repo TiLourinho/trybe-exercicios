@@ -43,7 +43,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 5.4: _JavaScript - Web Storage_
 - [X] 5.5: _Projeto: Pixels Art_
 - [X] 5.6: _Projeto: To Do List_
-- [X] 5.7: _Projetos: Meme Generator, Guess Color e Mistery Letter_
+- [ ] 5.7: _Projetos: Meme Generator, Guess Color e Mistery Letter_
 
 ##### [Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2006%20-%20HTML%20e%20CSS:%20Forms%2C%20Flexbox%20e%20Responsivo)
 
