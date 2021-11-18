@@ -33,11 +33,11 @@ const checkNum = (num, callback) => {
 console.log(checkNum(5, draw()));
 
 // 3.
-
+// Resolução do Gabarito
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
-const countAnswers = (rightAnswers, studentAnswers, callback) => {
+const checkAnswers = (rightAnswers, studentAnswers, callback) => {
   let counter = 0;
 
   for (let i = 0; i < rightAnswers.length; i += 1) {
@@ -47,11 +47,37 @@ const countAnswers = (rightAnswers, studentAnswers, callback) => {
   return `Resultado final: ${counter} pontos`
 };
 
-console.log(countAnswers(RIGHT_ANSWERS, STUDENT_ANSWERS, (rA, uA) => {
+console.log(checkAnswers(RIGHT_ANSWERS, STUDENT_ANSWERS, (rA, uA) => {
   if (rA === uA) { return 1 };
   if (uA === 'N.A') { return 0 };
   return -0.5;
 }));
+
+// Resolução da Ro
+const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+const checagemRespostas = (gabarito, folhaRespostas) => {
+  let resultado = 0;
+    for (let i = 0; i < gabarito.length; i += 1) {
+      if (folhaRespostas[i].toUpperCase() === 'N.A') {
+        continue;
+      }
+      if (gabarito[i].toUpperCase() === folhaRespostas[i].toUpperCase()) {
+        resultado += 1;
+      } else {
+        resultado -= 0.5;
+      }
+      console.log(resultado);
+      return resultado;
+    }
+}
+
+const resultadoFinal = (gabarito, folhaRespostas, callback) => {
+  return callback (gabarito, folhaRespostas);
+}
+
+console.log(resultadoFinal(RIGHT_ANSWERS, STUDENT_ANSWERS, checagemRespostas));
 
 // Bônus
 // 1.
