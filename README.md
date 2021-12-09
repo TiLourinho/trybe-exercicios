@@ -70,7 +70,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 8.5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
 - [X] 8.6: _Projeto: Zoo Functions_
 
-##### [Bloco 9: JavaScript e Testes Assíncronos]
+##### [Bloco 9: JavaScript e Testes Assíncronos](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2009%20-%20JavaScript%20e%20Testes%20Ass%C3%ADncronos)
 
 - [X] 9.1: _JavaScript Assíncrono e Callbacks_
 - [X] 9.2: _JavaScript Assíncrono - Fetch API e async/await_
