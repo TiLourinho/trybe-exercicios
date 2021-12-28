@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :green_check_mark:
+## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ##### [Bloco 1: Introdução - Unix & Shell](https://github.com/TiLourinho/trybe-exercicios/tree/master/01.%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco%2001%20-%20Unix%20%26%20Bash)
 
@@ -79,7 +79,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### [Bloco 10: Introdução à React]
+##### [Bloco 10: Introdução à React](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2010%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20React)
 
 - [X] 10.1: _'Hello, world!' no React!_
 - [ ] 10.2: _Componentes React_
