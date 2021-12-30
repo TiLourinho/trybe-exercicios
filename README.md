@@ -82,5 +82,5 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 10: Introdução à React](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2010%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20React)
 
 - [X] 10.1: _'Hello, world!' no React!_
-- [ ] 10.2: _Componentes React_
+- [X] 10.2: _Componentes React_
 - [ ] 10.3: _Projeto: Solar System_
