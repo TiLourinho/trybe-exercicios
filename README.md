@@ -85,7 +85,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 10.2: _Componentes React_
 - [X] 10.3: _Projeto: Solar System_
 
-##### [Bloco 11: Componentes com Estado, Eventos e Formulários com React]
+##### [Bloco 11: Componentes com Estado, Eventos e Formulários com React](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2011%20-%20Componentes%20com%20Estado%2C%20Eventos%20e%20Formul%C3%A1rios%20com%20React)
 
 - [ ] 11.1: _Componentes com estado e eventos_
 - [ ] 11.2: _Formulários no React_
