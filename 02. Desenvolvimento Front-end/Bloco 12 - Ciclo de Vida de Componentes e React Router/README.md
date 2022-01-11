@@ -1,6 +1,6 @@
-### Dia 12.1 - Ciclo de vida de componentes
+# Dia 12.1 - Ciclo de vida de componentes
 
-#### Neste dia aprendi a:
+## Neste dia aprendi a:
 
 - Utilizar o _componentDidMount_ para executar uma ação após o componente ser inserido no DOM;
 - Utilizar o _shouldComponentUpdate_ para avaliar se uma atualização do componente deve ou não acontecer naquele momento;
