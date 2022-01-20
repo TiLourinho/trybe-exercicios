@@ -94,5 +94,10 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 12: Ciclo de Vida de Componentes e React Router]
 
 - [X] 12.1: _Ciclo de vida de componentes_
-- [ ] 12.2: _React Router_
-- [ ] 12.3: _Projeto: TrybeTunes_
+- [X] 12.2: _React Router_
+- [X] 12.3: _Projeto: TrybeTunes_
+
+##### [Bloco 13: Metodologias Ágeis]
+
+- [X] 13.1: _Metodologias Ágeis_
+- [ ] 13.2: _Projeto: Frontend Online Store_
