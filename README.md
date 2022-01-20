@@ -91,13 +91,13 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 11.2: _Formulários no React_
 - [X] 11.3: _Projeto: Tryunfo_
 
-##### [Bloco 12: Ciclo de Vida de Componentes e React Router]
+##### [Bloco 12: Ciclo de Vida de Componentes e React Router](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2012%20-%20Ciclo%20de%20Vida%20de%20Componentes%20e%20React%20Router)
 
 - [X] 12.1: _Ciclo de vida de componentes_
 - [X] 12.2: _React Router_
 - [X] 12.3: _Projeto: TrybeTunes_
 
-##### [Bloco 13: Metodologias Ágeis]
+##### [Bloco 13: Metodologias Ágeis](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2013%20-%20Metodologias%20%C3%81geis/Dia%2013.1%20-%20Metodologias%20%C3%81geis)
 
 - [X] 13.1: _Metodologias Ágeis_
 - [ ] 13.2: _Projeto: Frontend Online Store_
