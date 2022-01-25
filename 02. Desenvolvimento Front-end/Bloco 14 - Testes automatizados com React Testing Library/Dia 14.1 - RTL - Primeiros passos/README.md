@@ -1,6 +1,6 @@
-#Dia 14.1 - RTL - Primeiros passos
+# Dia 14.1 - RTL - Primeiros passos
 
-##Neste dia aprendi a:
+## Neste dia aprendi a:
 
 - Utilizar os seletores (queries) da React-Testing-Library em testes automatizados;
 - Simular eventos com a React-Testing-Library em testes automatizados;
