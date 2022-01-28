@@ -100,4 +100,11 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 13: Metodologias Ágeis](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2013%20-%20Metodologias%20%C3%81geis/Dia%2013.1%20-%20Metodologias%20%C3%81geis)
 
 - [X] 13.1: _Metodologias Ágeis_
-- [ ] 13.2: _Projeto: Frontend Online Store_
+- [X] 13.2: _Projeto: Frontend Online Store_
+
+##### [Bloco 14: Testes automatizados com React Testing Library](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2014%20-%20Testes%20automatizados%20com%20React%20Testing%20Library)
+
+- [X] 14.1: _RTL - Primeiros passos_
+- [X] 14.2: _RTL - Mocks e Inputs_
+- [X] 14.3: _RTL - Testando React Router_
+- [ ] 14.4: _Projeto: Testes em React_
