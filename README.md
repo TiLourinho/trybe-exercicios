@@ -107,4 +107,13 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 14.1: _RTL - Primeiros passos_
 - [X] 14.2: _RTL - Mocks e Inputs_
 - [X] 14.3: _RTL - Testando React Router_
-- [ ] 14.4: _Projeto: Testes em React_
+- [X] 14.4: _Projeto: Testes em React_
+
+##### [Bloco 15: Gerenciamento de estado com Redux]
+
+- [ ] 15.1: _Introdução ao Redux - O estado global da aplicação_
+- [ ] 15.2: _Usando o Redux no React_
+- [ ] 15.3: _Usando o Redux no React - Prática_
+- [ ] 15.4: _Usando o Redux no React - Actions Assíncronas_
+- [ ] 15.5: _Testes em React-Redux_
+- [ ] 15.6: _Projeto: Trybe Wallet_
