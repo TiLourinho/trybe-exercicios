@@ -96,9 +96,17 @@
         const state = store.getState();
 
         nome1.innerHTML = state.meuPrimeiroReducer.nome;
+        nome1.style.color = 'red';
+        nome1.style.fontWeight = '600';
         sobrenome1.innerHTML = state.meuPrimeiroReducer.sobrenome;
+        sobrenome1.style.color = 'red';
+        sobrenome1.style.fontWeight = '600';
         nome2.innerHTML = state.meuSegundoReducer.nome;
+        nome2.style.color = 'blue';
+        nome2.style.fontWeight = '600';
         sobrenome2.innerHTML = state.meuSegundoReducer.sobrenome;
+        sobrenome2.style.color = 'blue';
+        sobrenome2.style.fontWeight = '600';
       })
     </script>
   </body>
