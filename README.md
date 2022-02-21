@@ -118,9 +118,9 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 15.5: _Testes em React-Redux_
 - [X] 15.6: _Projeto: Trybe Wallet_
 
-##### [Bloco 16: Projeto - Jogo de Trivia]()
+##### [Bloco 16: Projeto - Jogo de Trivia]
 
-##### [Bloco 17: Context API e React Hooks]()
+##### [Bloco 17: Context API e React Hooks]
 
 - [ ] 17.1: _Context API do React_
 - [ ] 17.2: _React Hooks - useState e useContext_
