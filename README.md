@@ -109,11 +109,20 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 14.3: _RTL - Testando React Router_
 - [X] 14.4: _Projeto: Testes em React_
 
-##### [Bloco 15: Gerenciamento de estado com Redux]
+##### [Bloco 15: Gerenciamento de estado com Redux](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2015%20-%20Gerenciamento%20de%20estado%20com%20Redux)
 
 - [X] 15.1: _Introdução ao Redux - O estado global da aplicação_
 - [X] 15.2: _Usando o Redux no React_
 - [X] 15.3: _Usando o Redux no React - Prática_
-- [ ] 15.4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 15.5: _Testes em React-Redux_
-- [ ] 15.6: _Projeto: Trybe Wallet_
+- [X] 15.4: _Usando o Redux no React - Actions Assíncronas_
+- [X] 15.5: _Testes em React-Redux_
+- [X] 15.6: _Projeto: Trybe Wallet_
+
+##### [Bloco 16: Projeto - Jogo de Trivia]
+
+##### [Bloco 17: Context API e React Hooks]
+
+- [ ] 17.1: _Context API do React_
+- [ ] 17.2: _React Hooks - useState e useContext_
+- [ ] 17.3: _React Hooks - useEffect e Hooks customizados_
+- [ ] 17.4: _Projeto: StarWars Datatable com Context API e Hooks_
