@@ -120,7 +120,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### Bloco 16: Projeto - Jogo de Trivia
 
-##### Bloco 17: Context API e React Hooks(https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2017%20-%20Context%20API%20e%20React%20Hooks)
+##### [Bloco 17: Context API e React Hooks](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2017%20-%20Context%20API%20e%20React%20Hooks)
 
 - [X] 17.1: _Context API do React_
 - [X] 17.2: _React Hooks - useState e useContext_
