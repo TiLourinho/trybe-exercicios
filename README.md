@@ -77,7 +77,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 9.3: _Jest - Testes Assíncronos_
 - [X] 9.4: _Projeto: Shopping Cart_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
 ##### [Bloco 10: Introdução à React](https://github.com/TiLourinho/trybe-exercicios/tree/master/02.%20Desenvolvimento%20Front-end/Bloco%2010%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20React)
 
@@ -128,3 +128,12 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 17.4: _Projeto: StarWars Datatable com Context API e Hooks_
 
 ##### Bloco 18: Projeto - App de Receitas
+
+## Desenvolvimento Back-end :hourglass_flowing_sand:
+
+##### Bloco 19: Docker: Utilizando Containers
+
+- [ ] 19.1: _Utilizando Containers - Docker_
+- [ ] 19.2: _Manipulação e Criação de Imagens no Docker_
+- [ ] 19.3: _Orquestrando Containers com Docker Compose_
+- [ ] 19.4: _Projeto - Docker Todo-List_
