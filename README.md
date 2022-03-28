@@ -131,9 +131,9 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 19: Docker: Utilizando Containers
+##### [Bloco 19: Docker: Utilizando Containers](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2019%20-%20Docker:%20Utilizando%20Containers)
 
-- [ ] 19.1: _Utilizando Containers - Docker_
-- [ ] 19.2: _Manipulação e Criação de Imagens no Docker_
-- [ ] 19.3: _Orquestrando Containers com Docker Compose_
+- [X] 19.1: _Utilizando Containers - Docker_
+- [X] 19.2: _Manipulação e Criação de Imagens no Docker_
+- [X] 19.3: _Orquestrando Containers com Docker Compose_
 - [ ] 19.4: _Projeto - Docker Todo-List_
