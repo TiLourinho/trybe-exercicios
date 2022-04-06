@@ -136,4 +136,19 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 19.1: _Utilizando Containers - Docker_
 - [X] 19.2: _Manipulação e Criação de Imagens no Docker_
 - [X] 19.3: _Orquestrando Containers com Docker Compose_
-- [ ] 19.4: _Projeto - Docker Todo-List_
+- [X] 19.4: _Projeto - Docker Todo-List_
+
+##### [Bloco 20: Introdução à SQL](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2020%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20SQL)
+
+- [X] 20.1: _Banco de dados SQL_
+- [X] 20.2: _Encontrando dados em um banco de dados_
+- [X] 20.3: _Filtrando dados de forma específica_
+- [X] 20.4: _Manipulando tabelas_
+- [X] 20.5: _Projeto - All For One_
+
+##### Bloco 21: Funções SQL, JOINs e Normalização
+
+- [ ] 21.1: _Funções mais usadas no SQL_
+- [ ] 21.2: _Descomplicando JOINs_
+- [ ] 21.3: _Transformando ideias em um modelo de banco de dados_
+- [ ] 21.4: _Projeto - One For All_
