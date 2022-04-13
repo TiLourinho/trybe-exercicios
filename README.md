@@ -146,7 +146,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 20.4: _Manipulando tabelas_
 - [X] 20.5: _Projeto - All For One_
 
-##### [Bloco 21: Funções SQL, JOINs e Normalização](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2021%20-%20Fun%C3%A7%C3%B5es%20SQL%2C%20JOINs%20e%20Normaliza%C3%A7%C3%A3o/Dia%2021.1%20-%20Fun%C3%A7%C3%B5es%20mais%20usadas%20no%20SQL)
+##### [Bloco 21: Funções SQL, JOINs e Normalização](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2021%20-%20Fun%C3%A7%C3%B5es%20SQL%2C%20JOINs%20e%20Normaliza%C3%A7%C3%A3o)
 
 - [X] 21.1: _Funções mais usadas no SQL_
 - [X] 21.2: _Descomplicando JOINs_
