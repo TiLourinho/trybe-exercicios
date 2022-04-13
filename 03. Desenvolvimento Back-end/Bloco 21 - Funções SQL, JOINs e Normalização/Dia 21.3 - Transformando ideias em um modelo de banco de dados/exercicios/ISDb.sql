@@ -1,0 +1,29 @@
+CREATE DATABASE IF NOT EXISTS ISDb;
+
+USE ISDb;
+
+CREATE TABLE artist (
+	artist_id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50) NOT NULL
+) ENGINE = InnoDB;
+
+CREATE TABLE genre (
+	genre_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL
+) ENGINE = InnoDB;
+
+CREATE TABLE album (
+	album_id INT PRIMARY KEY AUTO_INCREMENT,
+    artist_id INT NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    price DECIMAL(5, 2) NOT NULL,
+    genre_id INT NOT NULL,
+    FOREIGN KEY (artist_id) REFERENCES artist(artist_id),
+    FOREIGN KEY (genre_id) REFERENCES genre(genre_id)
+) ENGINE = InnoDB;
+
+CREATE TABLE song (
+	song_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    FOREIGN KEY (album_id) REFERENCES album(album_id)
+) ENGINE = InnoDB;
