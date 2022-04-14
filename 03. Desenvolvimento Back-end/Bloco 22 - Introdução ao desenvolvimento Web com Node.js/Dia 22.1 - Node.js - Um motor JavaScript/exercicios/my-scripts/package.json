@@ -1,0 +1,18 @@
+{
+  "name": "my-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imc": "node imc.js",
+    "speed": "node speed.js",
+    "lotery": "node lotery.js",
+    "start": "node index.js"
+  },
+  "author": "Tiago Lourinho",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
