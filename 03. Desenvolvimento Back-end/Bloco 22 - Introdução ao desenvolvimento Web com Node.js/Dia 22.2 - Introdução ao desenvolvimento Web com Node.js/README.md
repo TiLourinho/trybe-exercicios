@@ -1,4 +1,4 @@
-# Dia 22.2 - Introdução ao desenvolvimento Web com Node.js
+# Dia 22.2 - Fluxo Assíncrono
 
 ## Neste dia aprendi a:
 
