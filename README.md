@@ -152,3 +152,12 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 21.2: _Descomplicando JOINs_
 - [X] 21.3: _Transformando ideias em um modelo de banco de dados_
 - [X] 21.4: _Projeto - One For All_
+
+##### [Bloco 22: Introdução ao desenvolvimento Web com Node.js](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2022%20-%20Introdu%C3%A7%C3%A3o%20ao%20desenvolvimento%20Web%20com%20Node.js)
+
+- [ ] 22.1: _Node.js - Um motor JavaScript_
+- [ ] 22.2: _Fluxo Assíncrono_
+- [ ] 22.3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [ ] 22.4: _Express - HTTP com Node.js_
+- [ ] 22.5: _Express - Middlewares_
+- [ ] 22.6: _Projeto: Talker Manager_
