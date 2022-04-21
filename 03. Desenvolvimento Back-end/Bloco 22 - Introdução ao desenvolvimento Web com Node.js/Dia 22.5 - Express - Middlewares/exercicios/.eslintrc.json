@@ -1,0 +1,40 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "max-len": [
+            "error",
+            { "code": 100 },
+            { "ignoreComments": true },
+            { "ignoreUrls": true },
+            { "ignoreStrings": true },
+            { "ignoreTemplateLiterals": true },
+            { "ignoreRegExpLiterals": true },
+            { "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\(" }
+        ],
+        "allowTemplateLiterals": true
+    }
+}
