@@ -1,10 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const userRouter = require('./routes/user');
 const axios = require('axios');
+const userRouter = require('./routes/user');
+const postsRouter = require('./routes/posts');
+const teamsRouter = require('./routes/teams');
+const routError = require('./middlewares/handleError');
 const validateToken = require('./middlewares/validateToken');
-const { OK } = require('./helpers/statusCode');
+const { OK, NOT_FOUND } = require('./helpers/statusCode');
 
 const PORT = 3000;
 const API = 'https://api.coindesk.com/v1/bpi/currentprice/BTC.json';
@@ -20,6 +23,11 @@ app.get('/btc/price', validateToken, async (_req, res) => {
 });
 
 app.use('/user', userRouter);
+app.use('/posts', postsRouter);
+app.use('/teams', teamsRouter);
+
+app.use('*', (_req, _res, next) => next({ statusCode: `${NOT_FOUND}`, message: 'Opsss, route not found!' }));
+app.use(routError);
 
 app.listen(PORT, () => {
   console.log(`Aplicação sendo ouvida na porta ${PORT}`);

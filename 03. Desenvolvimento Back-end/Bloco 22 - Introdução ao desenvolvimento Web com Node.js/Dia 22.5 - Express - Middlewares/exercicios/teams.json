@@ -1,0 +1,18 @@
+[
+  {
+    "team": "São Paulo",
+    "initials": "SP",
+    "country": "Brazil",
+    "league": "Campeonato Brasileiro"
+  },
+  {
+    "team": "Barcelona",
+    "initials": "BAR",
+    "country": "Spain"
+  },
+  {
+    "team": "Juventus",
+    "initials": "JUV",
+    "country": "Italy"
+  }
+]
