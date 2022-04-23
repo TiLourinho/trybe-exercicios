@@ -10,9 +10,9 @@ userRouter.post('/register', validateUsername, validateEmail, validatePassword, 
 });
 
 userRouter.post('/login', validateEmail, validatePassword, (_req, res) => {
-  try {
-    // const token = Math.random().toString(36).substring(5); // Gerador de token
+  // const token = Math.random().toString(36).substring(5); // Gerador de token
 
+  try {
     res.status(OK).json({ token: '86567349784e' });
   } catch (err) {
     res.status(BAD_REQUEST).json({ 'message': 'Email or Password is incorrect!' });
