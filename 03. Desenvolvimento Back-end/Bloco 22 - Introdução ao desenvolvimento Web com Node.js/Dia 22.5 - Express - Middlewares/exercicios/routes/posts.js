@@ -1,18 +1,11 @@
 const express = require('express');
 const postsRouter = express.Router();
+const { POSTS } = require('../helpers/constants');
 const { NOT_FOUND, OK } = require('../helpers/statusCode');
-
-const posts = [
-  { id: 1, quote: 'This is the part where Cameron goes berserk.', author: 'Ferris Bueller' },
-  { id: 2, quote: `Ferris Bueller, you're my hero!`, author: 'Cameron Frye' },
-  { id: 3, quote: `Between grief and nothing... I'll take grief.`, author: 'Ed Rooney' },
-  { id: 4, quote: `Pardon my french, but you're an asshole!`, author: 'Cameron Frye' },
-  { id: 5, quote: 'Sooner or later, everybody goes kazoo.', author: 'Sloane Peterson' }
-];
 
 postsRouter.get('/:id', (req, res) => {
   const { id } = req.params;
-  const foundId = posts.find(item => item.id === parseInt(id));
+  const foundId = POSTS.find(item => item.id === parseInt(id));
 
   if (!foundId) {
     return res.status(NOT_FOUND).json({ message: 'Post not found' });
@@ -21,10 +14,10 @@ postsRouter.get('/:id', (req, res) => {
 });
 
 postsRouter.get('/', (_req, res) => {
-  if (!posts) {
+  if (!POSTS) {
     res.status(OK).json({ posts: '[]' });
   }
-  res.status(OK).json({ message: 'Quotes cadastrados', posts });
+  res.status(OK).json({ message: 'Quotes cadastrados', POSTS });
 });
 
 module.exports = postsRouter;
