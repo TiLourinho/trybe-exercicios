@@ -1,0 +1,22 @@
+{
+  "name": "cep-lookup",
+  "version": "1.0.0",
+  "description": "address api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Tiago Lourinho",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-rescue": "^1.1.31",
+    "joi": "^17.6.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
