@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "lourinho",
+    "password": "56874646",
+    "database": "associations",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
