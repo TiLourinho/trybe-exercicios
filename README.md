@@ -173,7 +173,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 24: Node.js: ORM e Autenticação](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2024%20-%20Node.js:%20ORM%20e%20Autentica%C3%A7%C3%A3o)
 
 - [X] 24.1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 24.2: _ORM - Associations_
+- [X] 24.2: _ORM - Associations_
 - [ ] 24.3: _JWT - (JSON Web Token)_
 - [ ] 24.4: _Testando APIs com Testes de Integração_
 - [ ] 24.5: _Projeto: API de Blogs_
