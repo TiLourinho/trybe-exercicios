@@ -178,8 +178,8 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 24.4: _Testando APIs com Testes de Integração_
 - [X] 24.5: _Projeto: API de Blogs_
 
-##### Bloco 25: Deployment
+##### [Bloco 25: Deployment](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2025%20-%20Deployment)
 
-- [ ] 25.1: _Infraestrutura - Deploy com Heroku_
+- [X] 25.1: _Infraestrutura - Deploy com Heroku_
 - [ ] 25.2: _Deploy Docker & Heroku_
 - [ ] 25.3: _Projeto: Stranger Things_
