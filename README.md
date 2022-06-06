@@ -181,5 +181,12 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 25: Deployment](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2025%20-%20Deployment)
 
 - [X] 25.1: _Infraestrutura - Deploy com Heroku_
-- [ ] 25.2: _Deploy Docker & Heroku_
-- [ ] 25.3: _Projeto: Stranger Things_
+- [X] 25.2: _Deploy Docker & Heroku_
+- [X] 25.3: _Projeto: Stranger Things_
+
+##### [Bloco 26: TypeScript](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2026%20-%20TypeScript)
+
+- [ ] 26.1: _Introdução ao TypeScript_
+- [ ] 26.2: _Tipagem Estática e Generics_
+- [ ] 26.3: _Express com TypeScript_
+- [ ] 26.4: _Projeto: Trybe Smith_
