@@ -186,7 +186,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### [Bloco 26: TypeScript](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2026%20-%20TypeScript)
 
-- [ ] 26.1: _Introdução ao TypeScript_
+- [X] 26.1: _Introdução ao TypeScript_
 - [ ] 26.2: _Tipagem Estática e Generics_
 - [ ] 26.3: _Express com TypeScript_
 - [ ] 26.4: _Projeto: Trybe Smith_
