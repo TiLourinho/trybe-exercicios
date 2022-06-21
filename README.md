@@ -193,7 +193,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### [Bloco 27: Programação Orientada à Objetos (POO) e SOLID](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2027%20-%20Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos%20(POO)%20e%20SOLID)
 
-- [ ] 27.1: _Introdução à Orientação a Objetos_
+- [X] 27.1: _Introdução à Orientação a Objetos_
 - [ ] 27.2: _Herança e Interfaces_
 - [ ] 27.3: _Polimorfismo_
 - [ ] 27.4: _SOLID - Introdução e Princípios S, O e D_
