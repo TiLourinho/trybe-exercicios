@@ -197,5 +197,16 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 27.2: _Herança e Interfaces_
 - [X] 27.3: _Polimorfismo_
 - [X] 27.4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 27.5: _SOLID - Princípios L e I_
-- [ ] 27.6: _Projeto: Trybers and Dragons_
+- [X] 27.5: _SOLID - Princípios L e I_
+- [X] 27.6: _Projeto: Trybers and Dragons_
+
+##### Bloco 28: Projeto - Trybe Futebol Clube
+
+##### [Bloco 29: Introdução ao MongoDB](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2029%20-%20Introdu%C3%A7%C3%A3o%20ao%20MongoDB)
+
+- [X] 29.1: _MongoDB - Introdução_
+- [X] 29.2: _Filter Operators_
+- [ ] 29.3: _Operadores de consulta_
+- [ ] 29.4: _Updates simples_
+- [ ] 29.5: _Updates complexos - Arrays_
+- [ ] 29.6: _Projeto: Commerce_
