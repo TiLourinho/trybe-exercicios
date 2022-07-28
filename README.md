@@ -213,5 +213,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### [Bloco 30: MongoDB com Node.js e POO](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2030%20-%20MongoDB%20com%20Node.js%20e%20POO)
 
-- [ ] 30.1: _Mongoose e arquitetura MSC (camada Model)_
+- [X] 30.1: _Mongoose e arquitetura MSC (camada Model)_
 - [ ] 30.2: _Mongoose e arquitetura MSC (camada Service e Controller)_
+- [ ] 30.3: _Projeto: Car Shop_
+
