@@ -1,10 +1,5 @@
 import { z } from 'zod';
-
-const lensZodSchema = z.object({
-  degree: z.number(),
-  antiGlare: z.boolean(),
-  blueLightFilter: z.boolean(),
-});
+import { lensZodSchema } from '../schemas';
 
 type ILens = z.infer<typeof lensZodSchema>;
 
