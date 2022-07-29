@@ -66,7 +66,7 @@ describe('Lens Model', () => {
 			try {
 				await lensModel.update('123ERRADO', lensMockForChange);
 			} catch (error: any) {
-				expect(error.message).to.be.eq('Invalid MongoId');
+				expect(error.message).to.be.eq('InvalidMongoId');
 			}
 		});
 	});

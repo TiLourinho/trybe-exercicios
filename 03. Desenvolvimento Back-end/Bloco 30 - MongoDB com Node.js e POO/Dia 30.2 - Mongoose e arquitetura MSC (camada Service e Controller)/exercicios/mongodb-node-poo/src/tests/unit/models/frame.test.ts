@@ -66,7 +66,7 @@ describe('Frame Model', () => {
 			try {
 				await frameModel.update('123ERRADO', frameMockForChange);
 			} catch (error: any) {
-				expect(error.message).to.be.eq('Invalid MongoId');
+				expect(error.message).to.be.eq('InvalidMongoId');
 			}
 		});
 	});
