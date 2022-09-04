@@ -129,7 +129,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### Bloco 18: Projeto - App de Receitas
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :white_check_mark:
 
 ##### [Bloco 19: Docker: Utilizando Containers](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2019%20-%20Docker:%20Utilizando%20Containers)
 
@@ -214,6 +214,18 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 30: MongoDB com Node.js e POO](https://github.com/TiLourinho/trybe-exercicios/tree/master/03.%20Desenvolvimento%20Back-end/Bloco%2030%20-%20MongoDB%20com%20Node.js%20e%20POO)
 
 - [X] 30.1: _Mongoose e arquitetura MSC (camada Model)_
-- [ ] 30.2: _Mongoose e arquitetura MSC (camada Service e Controller)_
-- [ ] 30.3: _Projeto: Car Shop_
+- [X] 30.2: _Mongoose e arquitetura MSC (camada Service e Controller)_
+- [X] 30.3: _Projeto: Car Shop_
 
+##### Bloco 31: Projeto - Delivery App
+
+##### Bloco 32: Masterclass - VPS, CI/CD
+
+## Ciência da Computação :hourglass_flowing_sand:
+
+##### Bloco 33: Introdução à Python
+
+- [ ] 33.1: _Aprendendto Python_
+- [ ] 33.2: _Entrada e Saída de Dados_
+- [ ] 33.3: _Testes_
+- [ ] 33.4: _Projeto: Job Insights_
