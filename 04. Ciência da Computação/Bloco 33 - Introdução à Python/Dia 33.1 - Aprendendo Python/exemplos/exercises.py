@@ -14,7 +14,7 @@ print(a - b)  # 5
 print(a * b)  # 50
 print(a / b)  # 2.0
 print(a // b)  # 2
-print(a ** b)  # 100000
+print(a**b)  # 100000
 print(a % b)  # 0
 
 """
@@ -28,7 +28,7 @@ hours = 6
 minutes = hours * 60
 seconds = minutes * 60
 
-print(f'Hours: {hours} - Minutes: {minutes} - Seconds: {seconds}')
+print(f"Hours: {hours} - Minutes: {minutes} - Seconds: {seconds}")
 
 """
 Exercício 3: Teste e verifique o que acontece se você colocar um ponto e
@@ -36,7 +36,7 @@ vírgula no final de uma instrução em Python.
 """
 
 teste = True
-print('Teste')
+print("Teste")
 
 # É possível usar ";", mas o Flake xaropa
 
@@ -97,17 +97,15 @@ Exercício 8: Insira no objeto uma nova propriedade com o nome de chave
 """
 
 info = {
-  "personagem": "Margarida",
-  "origem": "Pato Donald",
-  "nota": "Namorada do personagem principal nos quadrinhos do Pato Donald",
+    "personagem": "Margarida",
+    "origem": "Pato Donald",
+    "nota": "Namorada do personagem principal nos quadrinhos do Pato Donald",
 }
 
 info["recorrente"] = "Sim"
 
 print(info)
-# {'personagem': 'Margarida', 'origem': 'Pato Donald',
-# 'nota': 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-# 'recorrente': 'Sim'}
+# {'personagem': 'Margarida', 'origem': 'Pato Donald', 'nota': 'Namorada do personagem principal nos quadrinhos do Pato Donald', 'recorrente': 'Sim'}  # noqa
 
 """
 Exercício 9: Remova a propriedade cuja chave é "origem"
@@ -117,9 +115,7 @@ e imprima o objeto no console.
 del info["origem"]
 
 print(info)
-# {'personagem': 'Margarida',
-# 'nota': 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-# 'recorrente': 'Sim'}
+# {'personagem': 'Margarida', 'nota': 'Namorada do personagem principal nos quadrinhos do Pato Donald', 'recorrente': 'Sim'}  # noqa
 
 """
 Exercício 10: Após uma consulta do banco de dados, temos linhas que contém
@@ -128,7 +124,7 @@ Que estrutura vista anteriormente seria recomendada dado que após esta
 consulta somente exibimos estes valores?
 """
 
-'A estrutura recomendada é a tuple. Caso houvesse necessidade de editar os valores ou adicionar mais valores, usaríamos uma list.'  # noqa
+"A estrutura recomendada é a tuple. Caso houvesse necessidade de editar os valores ou adicionar mais valores, usaríamos uma list."  # noqa
 
 """
 Exercício 11: Realizar a contagem de quantas vezes cada elemento aparece em
@@ -136,7 +132,7 @@ uma sequência é uma técnica muito útil na solução de alguns problemas.
 Qual é a estrutura mais recomendada para o armazenamento desta contagem?
 """
 
-'A estrutura mais adequada é a dict, pois conseguimos armazenar o elemento da lista como chave e a quantidade de vezes que ele aparece como valor da chave.'  # noqa
+"A estrutura mais adequada é a dict, pois conseguimos armazenar o elemento da lista como chave e a quantidade de vezes que ele aparece como valor da chave."  # noqa
 
 """
 Exercício 12: O Fatorial de um número inteiro é representado pela
@@ -174,7 +170,7 @@ Exercício 14: Percorra a lista do exercício 13 e imprima
 
 for num in new_ratings:
     if num % 3 == 0:
-        print(f'{num} é múltiplo de 3')
+        print(f"{num} é múltiplo de 3")
 
 # 60 é múltiplo de 3
 # 90 é múltiplo de 3
