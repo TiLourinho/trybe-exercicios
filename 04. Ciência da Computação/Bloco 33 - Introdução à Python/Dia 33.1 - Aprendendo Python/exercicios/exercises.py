@@ -107,6 +107,97 @@ def triangle_types(a, b, c):
         print('Não é triângulo!')
 
 
-print(triangle_types(5, 5, 5))
-print(triangle_types(3, 3, 5))
-print(triangle_types(5, 6, 7))
+print(triangle_types(5, 5, 5))  # 'Triângulo Equilátero'
+print(triangle_types(3, 3, 5))  # 'Triângulo Isósceles'
+print(triangle_types(5, 6, 7))  # 'Triângulo Escaleno'
+
+""" Bônus """
+
+"""
+1 - Dada uma lista, descubra o menor elemento. Por exemplo, [5, 9, 3, 19, 70, 8, 100, 2, 35, 27] deve retornar 2.  # noqa
+"""
+
+NUMBERS_LIST = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]
+
+
+def smallest_number(list):
+    result = min(list)
+    return result
+
+
+print(smallest_number(NUMBERS_LIST))
+
+"""
+2 - Faça um programa que, dado um valor n qualquer, tal que n > 1, imprima na tela um triângulo retângulo com n asteriscos de base.
+Por exemplo, para n = 5 o triângulo terá 5 asteriscos na base.  # noqa
+"""
+
+
+def asterisks_triangle(n):
+    for number in range(1, n + 1):
+        print(number * '* ')
+
+
+print(asterisks_triangle(5))
+
+"""
+3 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
+Por exemplo, para N = 5, o valor esperado será 15.  # noqa
+"""
+
+
+def sum(n):
+    result = 0
+
+    for number in range(n + 1):
+        result += number
+
+    return result
+
+
+print(sum(5))  # 15
+
+"""
+4 - Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+
+  Álcool:
+    - Até 20 litros, desconto de 3% por litro;
+    - Acima de 20 litros, desconto de 5% por litro.
+  Gasolina:
+    - Até 20 litros, desconto de 4% por litro;
+    - Acima de 20 litros, desconto de 6% por litro.
+
+Escreva uma função que receba o número de litros vendidos,
+o tipo de combustível (codificado da seguinte forma: A - álcool, G - gasolina),
+e retorne o valor a ser pago pelo cliente,
+sabendo-se que o preço do litro da gasolina é R$ 2,50, e o preço do litro do álcool é R$ 1,90.  # noqa
+"""
+
+
+def gas_price(liters, type):
+    alcohol_price = 1.90
+    gasoline_price = 2.50
+
+    if type == 'A':
+        if 0 < liters <= 20:
+            alcohol_price -= alcohol_price * 0.03
+        else:
+            alcohol_price -= alcohol_price * 0.05
+
+        result = round(liters * alcohol_price, 2)
+        return result
+
+    if type == 'G':
+        if 0 < liters <= 20:
+            gasoline_price -= gasoline_price * 0.04
+        else:
+            gasoline_price -= gasoline_price * 0.06
+
+        result = round(liters * gasoline_price, 2)
+        return result
+
+
+print(gas_price(45, 'A'))  # 81.22
+print(gas_price(15, 'A'))  # 27.64
+print(gas_price(45, 'G'))  # 106
+print(gas_price(15, 'G'))  # 36
