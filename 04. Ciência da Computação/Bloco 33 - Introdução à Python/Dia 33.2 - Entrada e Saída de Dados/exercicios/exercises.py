@@ -43,13 +43,13 @@ def scrambled_word_game():
     random_word = random.choice(WORDS)
 
     scrambled_word = ''.join(random.sample(random_word, len(random_word)))
-    chances = 3
+    rounds = 3
 
     print('\n##### PALAVRA EMBARALHADA #####\n')
 
-    while chances > 0:
+    while rounds > 0:
         print(f'A palavra escolhida é: {scrambled_word}')
-        print(f'Você tem {chances} chances!\n')
+        print(f'Você tem {rounds} chances!\n')
 
         player_attempt = input('Digite o seu palpite: ').upper()
 
@@ -58,7 +58,7 @@ def scrambled_word_game():
             break
         else:
             print('Você errou! Que pena.\n')
-            chances -= 1
+            rounds -= 1
 
     WORDS.remove(random_word)
     try_again = input('Você quer jogar novamente? Digite "S" se sim e "N" se não: ').upper()  # noqa
