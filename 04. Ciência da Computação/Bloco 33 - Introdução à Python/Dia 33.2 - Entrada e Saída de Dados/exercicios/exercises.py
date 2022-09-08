@@ -1,4 +1,6 @@
 import random
+import json
+import csv
 
 """ Exercícios """
 
@@ -69,17 +71,17 @@ def scrambled_word_game():
         quit()
 
 
-scrambled_word_game()
+# scrambled_word_game()
 
 """
 3 - Modifique o exercício anterior para que as palavras sejam lidas de um arquivo.
 Considere que o arquivo terá cada palavra em uma linha.  # noqa
 """
 
-print(get_words())
+# print(get_words())
 
 """
-4 - Dado o seguinte arquivo no formato JSON, leia seu conteúdo e calcule a porcentagem de livros em cada
+4 - Dado o seguinte arquivo books.json, leia seu conteúdo e calcule a porcentagem de livros em cada
 categoria em relação ao número total de livros. O resultado deve ser escrito em um arquivo no formato CSV como o exemplo abaixo.  # noqa
 
     Saída:
@@ -89,6 +91,50 @@ categoria em relação ao número total de livros. O resultado deve ser escrito 
     PHP,0.23201856148491878
 
 """
+
+
+def books_percentage(books, total):
+    calc = (books * 100) / total
+    result = round(calc, 2)
+    return result
+
+
+def get_books():
+    with open('books.json') as books_file:
+        content = json.load(books_file)
+
+    python_books = 0
+    java_books = 0
+    php_books = 0
+    total_books = len(content)
+
+    for book in content:
+        if 'Python' in book['categories']:
+            python_books += 1
+        if 'Java' in book['categories'] or 'java' in book['categories']:
+            java_books += 1
+        if 'PHP' in book['categories']:
+            php_books += 1
+
+    python_books_percentage = books_percentage(python_books, total_books)
+    java_books_percentage = books_percentage(java_books, total_books)
+    php_books_percentage = books_percentage(php_books, total_books)
+
+    with open('books_report.csv', 'w', encoding='utf-8') as books_report_file:
+        headers = ['categoria', 'porcentagem']
+
+        writer = csv.DictWriter(books_report_file, fieldnames=headers)
+        writer.writeheader()
+
+        rows = [
+            {'categoria': 'Python', 'porcentagem': python_books_percentage},
+            {'categoria': 'Java', 'porcentagem': java_books_percentage},
+            {'categoria': 'PHP', 'porcentagem': php_books_percentage}
+        ]
+        writer.writerows(rows)
+
+
+get_books()
 
 """ Bônus """
 
