@@ -18,7 +18,7 @@ def inverted_stairs(name):
         name = name[:-1]
 
 
-# print(inverted_stairs("Tiago"))
+print(inverted_stairs("Tiago"))
 
 """
 2 - Jogo da palavra embaralhada. Desenvolva um jogo em que a pessoa usuária tenha que adivinhar uma palavra
@@ -74,14 +74,14 @@ def scrambled_word_game():
         quit()
 
 
-# scrambled_word_game()
+scrambled_word_game()
 
 """
 3 - Modifique o exercício anterior para que as palavras sejam lidas de um arquivo.
 Considere que o arquivo terá cada palavra em uma linha.  # noqa
 """
 
-# print(get_words())
+print(get_words())
 
 """
 4 - Dado o seguinte arquivo books.json, leia seu conteúdo e calcule a porcentagem de livros em cada
@@ -194,4 +194,4 @@ def guess_the_pokemon():
     guess_the_pokemon() if try_again == 'S' else quit()
 
 
-# guess_the_pokemon()
+guess_the_pokemon()
