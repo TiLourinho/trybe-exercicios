@@ -1,8 +1,11 @@
+from rich import print
 import random
 import json
 import csv
 
+
 """ Exercícios """
+
 
 """
 1 - Faça um programa que receba um nome e imprima o mesmo na vertical em escada invertida.  # noqa
@@ -93,20 +96,37 @@ categoria em relação ao número total de livros. O resultado deve ser escrito 
 """
 
 
+def import_books(path_file):
+    with open(path_file) as file:
+        content = json.load(file)
+        return content
+
+
 def books_percentage(books, total):
     calc = (books * 100) / total
     result = round(calc, 2)
     return result
 
 
-def get_books():
-    with open('books.json') as books_file:
-        content = json.load(books_file)
+def export_data(report, headers):
+    with open('books_report.csv', 'w', encoding='utf-8') as books_report_file:
+        writer = csv.DictWriter(books_report_file, fieldnames=headers)
+        writer.writeheader()
+
+        for type, percentage in report.items():
+            row = {'categoria': type, 'porcentagem': percentage}
+            writer.writerow(row)
+
+
+def subjects_percentage():
+    content = import_books('books.json')
 
     python_books = 0
     java_books = 0
     php_books = 0
     total_books = len(content)
+
+    report = dict()
 
     for book in content:
         if 'Python' in book['categories']:
@@ -116,27 +136,20 @@ def get_books():
         if 'PHP' in book['categories']:
             php_books += 1
 
-    python_books_percentage = books_percentage(python_books, total_books)
-    java_books_percentage = books_percentage(java_books, total_books)
-    php_books_percentage = books_percentage(php_books, total_books)
+    report['Python'] = books_percentage(python_books, total_books)
+    report['Java'] = books_percentage(java_books, total_books)
+    report['PHP'] = books_percentage(php_books, total_books)
 
-    with open('books_report.csv', 'w', encoding='utf-8') as books_report_file:
-        headers = ['categoria', 'porcentagem']
+    headers = ['categoria', 'porcentagem']
 
-        writer = csv.DictWriter(books_report_file, fieldnames=headers)
-        writer.writeheader()
-
-        rows = [
-            {'categoria': 'Python', 'porcentagem': python_books_percentage},
-            {'categoria': 'Java', 'porcentagem': java_books_percentage},
-            {'categoria': 'PHP', 'porcentagem': php_books_percentage}
-        ]
-        writer.writerows(rows)
+    export_data(report, headers)
 
 
-get_books()
+subjects_percentage()
+
 
 """ Bônus """
+
 
 """
 5 - Utilizando o arquivo pokemons.json, vamos escrever um programa que sorteie um pokemon aleatoriamente.
@@ -146,3 +159,39 @@ apresente um número de letras do nome daquele pokemon igual ao número de erros
 Exemplo: O pokemon sorteado pelo programa é butterfree; a pessoa usuária chuta charizard; o programa deve exibir b.
 Em seguida, a pessoa chuta blastoise; o programa deve exibir bu; e assim por diante até a pessoa acertar.  # noqa
 """
+
+
+def get_pokemon(path_file):
+    with open(path_file) as file:
+        content = json.load(file)['results']
+        return content
+
+
+def guess_the_pokemon():
+    pokedex = get_pokemon('pokemons.json')
+    random_pokemon = random.choice(pokedex)['name']
+
+    print('\nAcabamos de sortear um pokémon e você deve adivinhar qual foi \o/')  # noqa
+
+    counter = 0
+    tip = ''
+
+    while counter < len(random_pokemon):
+        user_guess = input('Quem é esse pokémon? ')
+
+        if user_guess == random_pokemon:
+            print('Parabéns! Você adivinhou o pokémon!')
+            break
+        else:
+            print('\nVocê errou!\nVamos dar uma letra do nome como dica:\n')  # noqa
+            tip += random_pokemon[counter]
+            print(f'O nome desse pokémon é: {tip}\n')
+            counter += 1
+
+    print('Poxa, não foi dessa vez!')
+    try_again = input('Você quer jogar novamente?\nDigite "S" se sim e "N" se não: ')  # noqa
+
+    guess_the_pokemon() if try_again == 'S' else quit()
+
+
+# guess_the_pokemon()
