@@ -12,21 +12,21 @@ Endereços de e-mail válidos devem seguir as seguintes regras:
 
 def email_validation(email):
     if email[0].isdigit():
-        raise ValueError('Email prefix must start with letters only')
+        raise ValueError('Email prefix must start with letters only.')
 
     prefix, domain = email.split('@')
     domain, extension = domain.split('.')
 
     for letter in prefix:
         if not letter.isdigit() and not letter.isalpha() and letter not in ['-', '_']:  # noqa
-            raise ValueError('Email prefix should only contain letters, numbers, hyphens and underscores')  # noqa
+            raise ValueError('Email prefix should only contain letters, numbers, hyphens and underscores.')  # noqa
 
     for letter in domain:
         if not letter.isdigit() and not letter.isalpha():
-            raise ValueError('Email domain should only contain letters and numbers')  # noqa
+            raise ValueError('Email domain should only contain letters and numbers.')  # noqa
 
     if len(extension) > 3:
-        raise ValueError('Email domain suffix must be up to 3 characters')
+        raise ValueError('Email domain suffix must be up to 3 characters.')
 
     return True
 
