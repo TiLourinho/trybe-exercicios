@@ -1,4 +1,4 @@
-from exercise_01 import fizz_buzz
+from src.exercise_01 import fizz_buzz
 
 
 def test_fizz_buzz_01():
