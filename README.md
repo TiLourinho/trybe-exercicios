@@ -227,5 +227,5 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 - [X] 33.1: _Aprendendo Python_
 - [X] 33.2: _Entrada e Saída de Dados_
-- [ ] 33.3: _Testes_
-- [ ] 33.4: _Projeto: Job Insights_
+- [X] 33.3: _Testes_
+- [X] 33.4: _Projeto: Job Insights_
