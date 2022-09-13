@@ -223,7 +223,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 33: Introdução à Python
+##### [Bloco 33: Introdução à Python](https://github.com/TiLourinho/trybe-exercicios/tree/master/04.%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o/Bloco%2033%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Python)
 
 - [X] 33.1: _Aprendendo Python_
 - [X] 33.2: _Entrada e Saída de Dados_
