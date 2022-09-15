@@ -232,7 +232,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 ##### [Bloco 34: Padrões de Projeto](https://github.com/TiLourinho/trybe-exercicios/tree/master/04.%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o/Bloco%2034%20-%20Padr%C3%B5es%20de%20Projeto)
 
-- [ ] 34.1: _POO em Python_
+- [X] 34.1: _POO em Python_
 - [ ] 34.2: _Padrões - Iterator, Adapter, Strategy_
 - [ ] 34.3: _Padrões - Decorator, Observer, Factory_
 - [ ] 34.4: _Projeto: Inventory Report_
