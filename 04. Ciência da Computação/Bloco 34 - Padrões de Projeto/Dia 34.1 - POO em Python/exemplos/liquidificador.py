@@ -43,22 +43,23 @@ class Liquidificador:
         self.__cor = nova_cor
 
 
-liquidificador_vermelho = Liquidificador('Vermelho', 250, 220, 125)
-liquidificador_vermelho.ligar(1)
-print('Está ligado?', liquidificador_vermelho.esta_ligado())
+if __name__ == '__main__':
+    liquidificador_vermelho = Liquidificador('Vermelho', 250, 220, 125)
+    liquidificador_vermelho.ligar(1)
+    print('Está ligado?', liquidificador_vermelho.esta_ligado())
 
-liquidificador_vermelho.desligar()
-print('Está ligado?', liquidificador_vermelho.esta_ligado())
+    liquidificador_vermelho.desligar()
+    print('Está ligado?', liquidificador_vermelho.esta_ligado())
 
-liquidificador_azul = Liquidificador('Azul', 250, 220, 125)
-# print(f'A cor atual é {liquidificador_azul.__cor}')
-print(f'A cor atual é {liquidificador_azul.cor}')
+    liquidificador_azul = Liquidificador('Azul', 250, 220, 125)
+    # print(f'A cor atual é {liquidificador_azul.__cor}')
+    print(f'A cor atual é {liquidificador_azul.cor}\n')
 
-liquidificador_azul.cor = 'Verde'
-print(f'Após pintarmos, a nova cor é {liquidificador_azul.cor}')
+    liquidificador_azul.cor = 'Verde'
+    print(f'Após pintarmos, a nova cor é {liquidificador_azul.cor}')
 
-print('\nO liquidificador tem as seguintes especificações:\n')
-print(f'- cor: {liquidificador_azul.cor.lower()}')
-print(f'- potência: {liquidificador_azul.potencia} W')
-print(f'- voltagem: {liquidificador_azul.voltagem} V')
-print(f'- preço: R$ {liquidificador_azul.preco}')
+    print('\nO liquidificador tem as seguintes especificações:')
+    print(f'- cor: {liquidificador_azul.cor.lower()}')
+    print(f'- potência: {liquidificador_azul.potencia} W')
+    print(f'- voltagem: {liquidificador_azul.voltagem} V')
+    print(f'- preço: R$ {liquidificador_azul.preco}')
