@@ -241,5 +241,12 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 - [X] 35.1: _Arquitetura de redes, ferramentas e segurança_
 - [X] 35.2: _Raspagem de Dados_
-- [ ] 35.3: _Outras Ferramentas de Raspagem de Dados_
-- [ ] 35.4: _Projeto: Tech News_
+- [X] 35.3: _Outras Ferramentas de Raspagem de Dados_
+- [X] 35.4: _Projeto: Tech News_
+
+##### [Bloco 36: Algoritmos](https://github.com/TiLourinho/trybe-exercicios/tree/master/04.%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o/Bloco%2036%20-%20Algoritmos)
+
+- [X] 36.1: _Complexidade de Algoritmos_
+- [ ] 36.2: _Recursividade e Estratégias para soluções de problemas_
+- [ ] 36.3: _Algoritmos de ordenação e busca_
+- [ ] 36.4: _Projeto: Algorithms_
