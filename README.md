@@ -247,6 +247,6 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 36: Algoritmos](https://github.com/TiLourinho/trybe-exercicios/tree/master/04.%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o/Bloco%2036%20-%20Algoritmos)
 
 - [X] 36.1: _Complexidade de Algoritmos_
-- [ ] 36.2: _Recursividade e Estratégias para soluções de problemas_
+- [X] 36.2: _Recursividade e Estratégias para soluções de problemas_
 - [ ] 36.3: _Algoritmos de ordenação e busca_
 - [ ] 36.4: _Projeto: Algorithms_
