@@ -248,5 +248,5 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 
 - [X] 36.1: _Complexidade de Algoritmos_
 - [X] 36.2: _Recursividade e Estratégias para soluções de problemas_
-- [ ] 36.3: _Algoritmos de ordenação e busca_
-- [ ] 36.4: _Projeto: Algorithms_
+- [X] 36.3: _Algoritmos de ordenação e busca_
+- [X] 36.4: _Projeto: Algorithms_
