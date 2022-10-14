@@ -250,3 +250,11 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 36.2: _Recursividade e Estratégias para soluções de problemas_
 - [X] 36.3: _Algoritmos de ordenação e busca_
 - [X] 36.4: _Projeto: Algorithms_
+
+##### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
+
+- [ ] 37.1: _Arquitetura de Computadores_
+- [ ] 37.2: _Arrays_
+- [ ] 37.3: _Nó e Listas Encadeadas_
+- [ ] 37.4: _Pilhas e Filas_
+- [ ] 37.5: _Projeto: TING - Trybe Is Not Google_
