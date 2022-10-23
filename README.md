@@ -256,5 +256,5 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 37.1: _Arquitetura de Computadores_
 - [X] 37.2: _Arrays_
 - [X] 37.3: _Nó e Listas Encadeadas_
-- [ ] 37.4: _Pilhas e Filas_
-- [ ] 37.5: _Projeto: TING - Trybe Is Not Google_
+- [X] 37.4: _Pilhas e Filas_
+- [X] 37.5: _Projeto: TING - Trybe Is Not Google_
