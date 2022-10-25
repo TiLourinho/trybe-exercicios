@@ -251,7 +251,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [X] 36.3: _Algoritmos de ordenação e busca_
 - [X] 36.4: _Projeto: Algorithms_
 
-##### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
+##### [Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas](https://github.com/TiLourinho/trybe-exercicios/tree/master/04.%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o/Bloco%2037%20-%20Estrutura%20de%20Dados%20I:%20Arrays%2C%20Listas%2C%20Filas%20e%20Pilhas)
 
 - [X] 37.1: _Arquitetura de Computadores_
 - [X] 37.2: _Arrays_
