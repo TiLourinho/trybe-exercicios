@@ -262,5 +262,5 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 ##### [Bloco 38: Estrutura de Dados II: Hashmaps e Sets](https://github.com/TiLourinho/trybe-exercicios/tree/master/04.%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o/Bloco%2038%20-%20Estrutura%20de%20Dados%20II:%20Hashmaps%20e%20Sets)
 
 - [X] 38.1: _Hashmap e Dict_
-- [ ] 38.2: _Set_
-- [ ] 38.3: _Project: Restaurant Orders_
+- [X] 38.2: _Set_
+- [X] 38.3: _Project: Restaurant Orders_
